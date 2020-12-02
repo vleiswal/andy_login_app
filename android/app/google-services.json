@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "359677582064",
+    "firebase_url": "https://email-login-andy.firebaseio.com",
+    "project_id": "email-login-andy",
+    "storage_bucket": "email-login-andy.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:359677582064:android:9bc698124f3df1697b8035",
+        "android_client_info": {
+          "package_name": "com.example.login_app"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "359677582064-jn3o8r2p62tmmsvnavdaa2de6bbk0efn.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDgdvcvy-iEgOEru9DzQTFiI97_lbwP4P4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "359677582064-jn3o8r2p62tmmsvnavdaa2de6bbk0efn.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
