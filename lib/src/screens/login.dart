@@ -61,10 +61,12 @@ class _LoginScreenState extends State<LoginScreen> {
                   auth
                       .signInWithEmailAndPassword(
                           email: _email, password: _password)
-                      .then((_) {
-                    Navigator.of(context).pushReplacement(
-                        MaterialPageRoute(builder: (context) => HomeScreen()));
-                  });
+                      .then(
+                    (_) {
+                      Navigator.of(context).pushReplacement(MaterialPageRoute(
+                          builder: (context) => HomeScreen()));
+                    },
+                  );
                 },
               ),
               RaisedButton(
